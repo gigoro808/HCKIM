@@ -10,8 +10,10 @@ public class UserException extends Exception {
         super(message);//예외처리의 메세지!
     }
     public UserException(String message, int port) {//메세지와 port를 초기화
-        super(message);
-        this.port = port;
+        // 부모인 Exception의 기본생성자를 호출
+        // String message를 추가한다.
+        super(message); 
+        this.port = port; // 멤버필드의 포트값을 초기화
     }
     public int getPort() {
         return port;

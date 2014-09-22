@@ -14,7 +14,8 @@ public class Ex3_Generic {
     public static void main(String[] args) {
         //Vector 와 ArrayList 차이는 동기화 지원 여부!
         //Vector 가 동기화를 지원하는 기능! 있지만 다른 부분으로 대체가능!
-        //Generic - String만 담을 수 있는 ArrayList
+        //Generic< > - < >안의 자료형만 ArrayList에 입력하도록 
+        // 입력타입을 미리 지정
         //jdk 7부터 변경된 요소 6이하는 오류
         ArrayList<String> str = new ArrayList<>();
         

@@ -8,7 +8,7 @@ public class Ex2_Throws {
 
     public void setData(String m) throws NumberFormatException {
         if (m.length() >= 1) {
-            String str = m.substring(0, 1);
+            String str = m.substring(0, 1); // 왼쪽 첫번째 글자
             printData(str);
         }
     }
